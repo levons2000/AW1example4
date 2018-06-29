@@ -8,7 +8,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Red"
+        android:text="@string/red"
         android:background="@color/red"
         android:layout_alignParentStart="true"
         />
@@ -16,7 +16,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Orange"
+        android:text="@string/orange"
         android:background="@color/orange"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yellow"
+        android:text="@string/yellow"
         android:background="@color/yallow"
         android:layout_alignParentEnd="true"
         />
@@ -33,7 +33,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Green"
+        android:text="@string/green"
         android:background="@color/green"
         android:layout_centerInParent="true"
         android:layout_toLeftOf="@+id/bluebutton"
@@ -43,7 +43,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Blue"
+        android:text="@string/blue"
         android:id="@+id/bluebutton"
         android:background="@color/blue"
         android:layout_centerInParent="true"
@@ -52,7 +52,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Indigo"
+        android:text="@string/indigo"
         android:background="@color/indigo"
         android:layout_centerInParent="true"
         android:layout_toRightOf="@+id/bluebutton"
@@ -62,7 +62,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Violet"
+        android:text="@string/violet"
         android:background="@color/violet"
         android:layout_alignParentBottom="true"
         />
