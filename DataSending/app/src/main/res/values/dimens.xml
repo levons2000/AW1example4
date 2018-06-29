@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_for_buttons">177dp</dimen>
+    <dimen name="textsize">45dp</dimen>
+    <dimen name="text_size">35dp</dimen>
+    <dimen name="margin_for_central_buttons">15dp</dimen>
+</resources>

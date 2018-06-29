@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   >
+
+    <Button
+        android:id="@+id/buttonlinear"
+        android:layout_width="@dimen/width_for_buttons"
+        android:layout_height="wrap_content"
+        android:text="@string/linearlayout" />
+
+    <Button
+        android:id="@+id/buttonconstraint"
+        android:layout_width="@dimen/width_for_buttons"
+        android:layout_height="wrap_content"
+        android:text="@string/constraint_layout" />
+
+    <Button
+        android:id="@+id/buttonrelative"
+        android:layout_width="@dimen/width_for_buttons"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout" />
+
+    <Button
+        android:id="@+id/buttonframe"
+        android:layout_width="@dimen/width_for_buttons"
+        android:layout_height="wrap_content"
+        android:text="@string/fr_layout" />
+    <Button
+        android:layout_width="@dimen/width_for_buttons"
+        android:layout_height="wrap_content"
+        android:text="@string/coor_layout"
+        android:id="@+id/buttoncoordinator"
+        />
+
+
+
+</LinearLayout>

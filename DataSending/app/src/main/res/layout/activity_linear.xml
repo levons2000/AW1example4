@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearbackground"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekred"
+        android:layout_weight="2"
+        android:background="@color/seekRed"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekgreen"
+        android:layout_weight="2"
+        android:background="@color/seekGreen"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekblue"
+        android:layout_weight="2"
+        android:background="@color/seekBlue"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textred"
+            android:textColor="@color/seekRed"
+            android:textSize="@dimen/textsize"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textgreen"
+            android:textColor="@color/seekGreen"
+            android:textSize="@dimen/textsize"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textblue"
+            android:textColor="@color/seekBlue"
+            android:textSize="@dimen/textsize"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

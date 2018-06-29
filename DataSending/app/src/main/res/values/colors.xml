@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="seekRed">#ff0400</color>
+    <color name="seekGreen">#00ff04</color>
+    <color name="seekBlue">#0022ff</color>
+    <color name="forsakura">#3058b4</color>
+    <color name="red">#ff0011</color>
+    <color name="orange">#ff8800</color>
+    <color name="yallow">#fff700</color>
+    <color name="green">#04ff00</color>
+    <color name="blue">#003cff</color>
+    <color name="indigo">#c800ff</color>
+    <color name="violet">#ff00c8</color>
+    <color name="black">#000000</color>
+    <color name="seri">#817e7e</color>
+</resources>

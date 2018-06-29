@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DataSending</string>
+    <string name="linearlayout">Linear Layout</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="fr_layout">Frame Layout</string>
+    <string name="coor_layout">Coordinator Layout</string>
+    <string name="the_beautifully_sakuras">The Beautifully Sakura\'s</string>
+    <string name="constraint_layout">Constraint Layout</string>
+</resources>
